@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'Bohemian Soul';
+  src: url('/fonts/Bohemian\ Soul.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Rosie Brown Serif';
+  src: url('/fonts/Rosie\ Brown\ Serif\ Demo.otf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Type Machine';
+  src: url('/fonts/Type\ Machine.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    background-color: #0D0D0D !important;
+    color: #DAC5A7;
+}
+
+header{
+    border-bottom: #DAC5A7BF solid 1.5px;
+    position: sticky;
+}
+.offcanvas-custom {
+    background-color: #0D0D0D !important;
+    color: #DAC5A7BF;
+    width: 50% !important;
+}
+
+.offcanvas-header{
+    background-color: #DAC5A7BF;
+}
+.offcanvas-custom a {
+    color: #DAC5A7BF;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.offcanvas-custom a:hover {
+    color: #DAC5A7; 
+}
+
+.btn-menu {
+    font-size: xx-large !important;
+    background-color: #0D0D0D;
+    color: #DAC5A7BF !important;
+    border: 1px solid #DAC5A7BF;
+}
+
+.btn-menu:hover {
+    background-color: #1A1A1A;
+ }
+ .tittle-boutme{
+    margin-top: 20%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }
+ .tittle-boutme h1{
+    color: #DAC5A7;
+ }
+ .hw{
+    font-family: 'Type Machine';
+    font-size: 50px !important;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+#typing {
+  color: #DAC5A7;
+  font-size: 26px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #DAC5A7;
+  padding-right: 5px;
+  animation: blink 0.7s infinite;
+  min-height: 1.5em;
+}
+
+@keyframes blink {
+  0% { border-color: transparent; }
+  50% { border-color: #DAC5A7; }
+  100% { border-color: transparent; }
+}
+
+ .tittle-boutme h2{
+    color: #DAC5A7;
+    font-family:'Rosie Brown Serif';
+
+ }
+
+  .tittle-boutme h6{
+    color: #857764;
+    font-family:Bohemian Soul;
+ }
+
+ .description-boutme{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+    margin-top: 5%;
+    margin-bottom: 30px;
+ }
+
+ .description-boutme p{
+    font-size: 18px;
+    color: #bdb6aebe;
+ }
+
+.skills{
+    color:#DAC5A7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+}
+
+.skills h2{
+    font-family: 'Type Machine';
+    color: antiquewhite;
+}
+
+.Experience-s{
+    padding: 10px;
+    margin-top : 20px;
+}
+
+.Experience-s h1{
+    color: #DAC5A7;
+    font-family: Bohemian Soul;
+}
+
+.exp-info{
+    border-top: solid #DAC5A7;
+}
+.exp-info p{
+    padding: 10px;
+    font-size: 17px;
+    color: #DAC5A7;
+    font-weight: 700;
+}
+
+
+.icons-text{
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.icons-text .item:last-child {
+  grid-column: span 2; 
+}
+.icon-skilss-info{
+    height: 50px;
+    color: #DAC5A7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+ .icon-skilss-info img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+ }
+
+ .education-s{
+    background-color: #857764;
+    padding: 10px;
+    margin-top : 20px;
+    margin-bottom: 20px;
+ }
+.education-s h1{
+    font-family:'Bohemian Soul';
+    color: #0D0D0D;
+}
+
+.education-info{
+    display: flex;
+    flex-direction: column;
+    border-top: solid #0D0D0D;
+    padding: 10px;
+}
+
+.education-info h3{
+font-size: 22px;
+color: #0D0D0D;
+font-weight: 700;
+}
+
+.points-info{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+.points-info h4{
+    font-size: 20px;
+}
+
+.points-info img{
+    width: 20px;
+}
+
+.light-box{
+    background-color: #857764;
+    color: #0D0D0D;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.border_top{
+    border-top: #DAC5A7 solid 1px;
+}
+.border_bottom{
+    border-bottom: #DAC5A7 solid 1px;
+    margin-bottom: 13px;
+}
